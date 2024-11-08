@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/gapps/proprietary/system_ext/etc/permissions/privapp-permissions-google-system-ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-system-ext.xml
 
 PRODUCT_PACKAGES += \
-    GmsCore \
+    Gms \
     Phonesky \
     SetupWizard \
     GoogleCalendarSyncAdapter \
