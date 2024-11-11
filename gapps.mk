@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
     GoogleFeedback \
     GoogleServicesFramework \
     GoogleRestore \
+    Wellbeing \
     com.google.android.dialer.support
 
 PRODUCT_SOONG_NAMESPACES += vendor/gapps/overlay

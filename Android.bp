@@ -131,6 +131,19 @@ android_app_import {
         product_specific: true,
 }
 
+android_app_import {
+	name: "Wellbeing",
+	owner: "gapps",
+	apk: "proprietary/product/priv-app/Wellbeing/Wellbeing.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
 dex_import {
         name: "com.google.android.dialer.support",
         owner: "gapps",
